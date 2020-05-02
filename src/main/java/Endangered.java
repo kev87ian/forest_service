@@ -1,12 +1,12 @@
 public class Endangered extends Animal {
-    private String health;
+    private String healthLevel;
     private final String state = "Endangered";
 
-    public Endangered (String name, String ranger, String location, String health, String age){
+    public Endangered (String name, String ranger, String location, String healthLevel, String age){
         this.name = name;
         this.ranger = ranger;
         this.location = location;
-        this.health = health;
+        this.healthLevel = healthLevel;
         this.age = age;
     }
 public String getState(){
@@ -18,8 +18,8 @@ public String getState(){
     public String getAge(){
         return age;
     }
-    public String getHealth(){
-        return health;
+    public String getHealthLevel(){
+        return healthLevel;
     }
     public String getRangerName(){
         return ranger;
