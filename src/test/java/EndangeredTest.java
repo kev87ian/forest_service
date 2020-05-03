@@ -6,25 +6,25 @@ import static org.junit.Assert.assertEquals;
 public class EndangeredTest {
     @Test
     public void endangered_instantiates_correctly(){
-        Endangered endangered = new Endangered("Kitty","Irwin","A","Fine", "young");
+        Endangered endangered = new Endangered("Kitty","Young","Irwin","By the River", "okay");
         assertEquals(true, endangered instanceof Endangered);
     }
 
     @Test
     public void endangered_returnsCorrectHealth(){
-        Endangered endangered = new Endangered("Kitty", "Irwin", "A", "Sickly", "Old");
-        assertEquals("Sickly", endangered.getHealthLevel());
+        Endangered Endangered = new Endangered("Kitty","Young","Irwin","By the River", "okay");
+        assertEquals("Sickly", Endangered.getHealth());
     }
 
     @Test
     public void checkIfEndangered_returnsCorrectAge(){
-        Endangered endangered = new Endangered("Kitty", "Irwin", "A", "Sickly", "Old");
+        Endangered endangered = new Endangered("Kitty","Young","Irwin","By the River", "okay");
         assertEquals("Old", endangered.getAge());
     }
     @Test
     public void checkIfEndangered_returnsCorrectRanger(){
-        Endangered endangered = new Endangered("Kitty", "Irwin", "A", "Okay", "Unsure");
-        assertEquals("Irwin", endangered.getRangerName());
+        Endangered endangered = new Endangered("Kitty","Young","Irwin","By the River", "okay");
+        assertEquals("Irwin", endangered.getRanger());
     }
 
 }
