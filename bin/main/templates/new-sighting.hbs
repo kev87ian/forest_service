@@ -1,0 +1,17 @@
+{{#partial "content"}}
+    <style>
+         body {
+background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+       text-align:center;
+             }
+    </style>
+        <div class="jumbotron">
+            <h3>Sightings</h3>
+            <p>Animal Name: {{animalName}}</p>
+            <p>Location : {{sightLocation}}</p>
+            <p>Ranger Name : {{ranger}}</p>
+            <p>Spotted Time : {{spotted}} </p>
+        </div>
+{{/partial}}
+{{>layout.hbs}}
