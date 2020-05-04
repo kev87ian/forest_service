@@ -17,9 +17,11 @@
       <change beforePath="$PROJECT_DIR$/build/distributions/forest_service-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/forest_service-1.0-SNAPSHOT.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/forest_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/forest_service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/sighted.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/sighted.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/success.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/success.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sighted.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sighted.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,22 +102,22 @@
       <screen x="0" y="0" width="1600" height="859" />
     </state>
     <state x="258" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.859@0.0.1600.859" timestamp="1588588450438" />
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588598847225">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588619033772">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588598847225" />
-    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588598847224">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588619033772" />
+    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588619033770">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588598847224" />
-    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588598847224">
+    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588619033770" />
+    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588619033769">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588598847224" />
-    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588598847225">
+    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588619033769" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588619033771">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588598847225" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588619033771" />
     <state x="574" y="139" width="442" height="578" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588597481298">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
