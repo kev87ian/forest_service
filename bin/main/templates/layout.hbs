@@ -1,88 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<title>
-    {{#block "title"}}
-        Wildlife Tracker
-{{/block}}
-</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    <link rel='stylesheet' href='resources/app.css'/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <title>{{#block "title"}}WildLife Tracker{{/block}}</title>
+    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    </title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
-<style>
-@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline|Kalam|Orbitron&display=swap");
-body {
- background-color: #63d471;
-background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+<body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="nav-link" href="/sightingendangered/new">Sight endangered</a>
+                <a class="nav-link" href="/sightingnonendangered/new">Sight non-endangered</a>
+                <a class="nav-link" href="/sightings"> View Sightings</a>
+            </nav>
 
-text-align:center;
-}
-
-
-footer {
-
-text-align:center;
-bottom:0;
-}
-form {
-background-repeat:no-repeat;
-background-size:cover;
-margin-left:75%;
-border-radius:3px;
-color:black;
-width:60%;
-height:50%;
-}
-h1{
-color:black;
-text-align:center;
-font-family: 'Orbitron', sans-serif;
-}
-nav{
-  position: absolute;
-  top: 20px;
-  right: 20%;
-  font-family: 'Orbitron', sans-serif;
-
-}
-nav>ul li{
-  display: inline-block;
-  padding: 10px 30px;
-  font-size: 1em;
-  color: white;
-  cursor: pointer;
-}
-img {
-background-size: cover;
-background-repeat: no-repeat;
-float:left;
-}
-</style>
-<body><br><br><br><br>
-<h1>WILDLIFE TRACKER</h1>
-<div class="layback">
-    <nav>
-        <ul>
-            <li><a  href="/">Home</a></li>
-            <li ><a href="/new-sighting" class="nav-link">Add Sighting</a></li>
-            <li><a href="/sightings" class="nav-link">Sightings</a></li>
-            <li><a href="/animal/new" class="nav-link">Add Animal</a></li>
-            <li><a href="/animals" class="nav-link">Animals</a></li>
-        </ul>
-    </nav>
-    <br/>
-    <br/>
-    <br/>
-</div>
-<a href="/"><img src="/images/bg.png" ></a>
+<body>
 {{#block "content"}}
-
 {{/block}}
 {{#block "footer"}}
-</body>
-</html>
+    </body>
+    </html>
 {{/block}}
+
