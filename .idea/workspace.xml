@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92122be6-7f9f-4f59-a931-9090eee2bfcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Ranger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Sight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/StrangeAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/animal-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/templates/animal-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/animals.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/new-animal.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/new-sighting.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/sightings-form.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/templates/sightings.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Animals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Endangered.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/EndangeredTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/addAnimalForm.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/addAnimalSuccess.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-EndangeredTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ranger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrangeAnimal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animal-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animal-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animals.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new-animal.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new-sighting.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sightings-form.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sightings.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/AnimalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,22 +84,22 @@
       <screen x="0" y="0" width="1600" height="859" />
     </state>
     <state x="258" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.859@0.0.1600.859" timestamp="1588588450438" />
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588588650032">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588593813502">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588588650032" />
-    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588588650031">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588593813502" />
+    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588593813501">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588588650031" />
-    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588588650031">
+    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588593813501" />
+    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588593813501">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588588650031" />
-    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588588650031">
+    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588593813501" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588593813502">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588588650031" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588593813502" />
     <state x="574" y="139" width="442" height="578" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588587858519">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
