@@ -1,9 +1,8 @@
 body{
     text-align: center;
     font-family: Garamond;
-background-image: url("moritz-kindler-24VowUjS7Jk-unsplash.jpg");
+    background-image: url('moritz-kindler-24VowUjS7Jk-unsplash.jpg');
     background-size: cover;
-    background-color: pink;
 }
 
 h4{

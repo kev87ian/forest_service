@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="models.EndangeredAnimalTest" time="0.349" tests="7" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64/compressedrefs/jclSC180/vm.jar:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/se-service.jar:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/rt.jar:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/resources.jar:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/jsse.jar:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/charsets.jar:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/jce.jar"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_242-b08"/>
+    <property name="user.name" value="kev"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64/compressedrefs:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64"/>
+    <property name="sun.boot.library.path" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64/compressedrefs:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="jdk.extensions.version" value="8.0.242.0"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="user.timezone" value="Africa/Nairobi"/>
+    <property name="com.ibm.system.agent.path" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Linux amd64-64-Bit Compressed References 20200122_511 (JIT enabled, AOT enabled)&#10;OpenJ9   - 51a5857d2&#10;OMR      - 7a1b0239a&#10;JCL      - 8cf8a30581 based on jdk8u242-b08"/>
+    <property name="os.version" value="4.15.0-96-generic"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.18.1"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/home/kev"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="java.library.path" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64/compressedrefs:/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/amd64:/usr/lib64:/usr/lib"/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_242-b08&#10;JRE 1.8.0 Linux amd64-64-Bit Compressed References 20200122_511 (JIT enabled, AOT enabled)&#10;OpenJ9   - 51a5857d2&#10;OMR      - 7a1b0239a&#10;JCL      - 8cf8a30581 based on jdk8u242-b08"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.java.launcher.pid" value="16328"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/kev/Desktop/forest_service"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/ext"/>
+    <property name="user.dir" value="/home/kev/Desktop/forest_service"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase name="endangeredAnimal_instantiatesCorrectly_true" classname="models.EndangeredAnimalTest" time="0.002"/>
+  <testcase name="getHealth_returnsCorrectHealthAttribute_true" classname="models.EndangeredAnimalTest" time="0"/>
+  <testcase name="all_returnsAllInstancesOfEndangeredAnimal_true" classname="models.EndangeredAnimalTest" time="0.207">
+    <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at models.EndangeredAnimalTest.all_returnsAllInstancesOfEndangeredAnimal_true(EndangeredAnimalTest.java:33)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="update_updatesAgeAttribute_true" classname="models.EndangeredAnimalTest" time="0.027"/>
+  <testcase name="save_assignsIdAndSavesObjectToDatabase" classname="models.EndangeredAnimalTest" time="0.02">
+    <failure message="expected:&lt;27&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<27> but was:<1>
+	at models.EndangeredAnimalTest.save_assignsIdAndSavesObjectToDatabase(EndangeredAnimalTest.java:24)
+]]></failure>
+  </testcase>
+  <testcase name="find_returnsAnimalWithSameId_secondAnimal" classname="models.EndangeredAnimalTest" time="0.026"/>
+  <testcase name="update_updatesHealthAttribute_true" classname="models.EndangeredAnimalTest" time="0.025"/>
+</testsuite>

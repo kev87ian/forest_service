@@ -1,0 +1,48 @@
+<!--binding form endangered-form -->
+{{#partial "content"}}
+    <div  style="text-align: center">
+        <p style="text-align: center">Fill the Form Below to sight endangered Animals</p>
+        <div class="card-header">
+            <h3>Add  endangered Animal</h3>
+        <div class="card-body">
+            <div class="form-center">
+                <form action="/sightingsendangered/new" method="post">
+                    <div class="form-group">
+                        <label for="name"> Animal Name</label>
+                        <input id="name" name="name" class="form-control" required >
+                     </div>
+                    <div class="dropdown">
+                        <label for="health">Health Status</label>
+                        <select id="health" name="health">
+                            <option value="Ill">Unwell</option>
+                            <option value="Okay">Okay</option>
+                            <option value="Healthy">Very Healthy</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        <select id="age" name="age">
+                            <option value="Newborn">newborn</option>
+                            <option value="Young">young</option>
+                            <option value="Adult">adult</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <select name="location">
+                            <option> Zone a</option>
+                            <option> Zone b</option>
+                            <option> Zone c</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="ranger_name">Ranger Name</label>
+                        <input id="ranger_name" name="ranger_name" class="form-control" type="text" required>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{{/partial}}
+{{> layout.hbs}}
