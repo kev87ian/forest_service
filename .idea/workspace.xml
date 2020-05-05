@@ -12,10 +12,69 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/models/AnimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/models/AnimalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/public/moritz-kindler-24VowUjS7Jk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/public/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/display.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/moritz-kindler-24VowUjS7Jk-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/Images/moritz-kindler-24VowUjS7Jk-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/display.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/moritz-kindler-24VowUjS7Jk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/animal-form.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/display.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/sighted.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/sighting-form.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/sightnonendangered-form.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/success.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/.heroku-deploy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/public/moritz-kindler-24VowUjS7Jk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/public/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/animal-form.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/display.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/layout.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/sighted.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/sighting-form.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/sightnonendangered-form.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/success.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-models.AnimalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-models.EndangeredAnimalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/TEST-models.SightingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/models.AnimalTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/models.EndangeredAnimalTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/surefire-reports/models.SightingTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/heroku/build.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-models.AnimalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-models.EndangeredAnimalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-models.SightingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/models.AnimalTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/models.EndangeredAnimalTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/models.SightingTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +85,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,8 +127,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/public/Images" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalTest.delete_deletesAnimalFromDatabase_0">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="forest_service.main" />
@@ -140,22 +215,26 @@
       <screen x="0" y="0" width="1600" height="859" />
     </state>
     <state x="100" y="100" width="1400" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.859@0.0.1600.859" timestamp="1588671820373" />
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588671820262">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588699230783">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588671820262" />
-    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588671820261">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588699230783" />
+    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588699230780">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588671820261" />
-    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588671820261">
+    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588699230780" />
+    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588699230769">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588671820261" />
-    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588671820262">
+    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588699230769" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588699230781">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588671820262" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588699230781" />
+    <state x="414" y="89" width="762" height="677" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588673810437">
+      <screen x="0" y="0" width="1600" height="859" />
+    </state>
+    <state x="414" y="89" width="762" height="677" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.859@0.0.1600.859" timestamp="1588673810437" />
     <state x="574" y="139" width="442" height="578" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588597481298">
       <screen x="0" y="0" width="1600" height="859" />
     </state>

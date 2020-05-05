@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: models.SightingTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 2.556 sec <<< FAILURE! - in models.SightingTest
+equals_returnsTrueIfLocationAndDescriptionAreSame_true(models.SightingTest)  Time elapsed: 0.54 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.equals_returnsTrueIfLocationAndDescriptionAreSame_true(SightingTest.java:20)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.equals_returnsTrueIfLocationAndDescriptionAreSame_true(SightingTest.java:20)
+
+sighting_instantiatesCorrectly_true(models.SightingTest)  Time elapsed: 0.51 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.sighting_instantiatesCorrectly_true(SightingTest.java:12)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.sighting_instantiatesCorrectly_true(SightingTest.java:12)
+
+save_insertsObjectIntoDatabase_Sighting(models.SightingTest)  Time elapsed: 0.487 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.save_insertsObjectIntoDatabase_Sighting(SightingTest.java:29)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.save_insertsObjectIntoDatabase_Sighting(SightingTest.java:29)
+
+all_returnsAllInstancesOfSighting_true(models.SightingTest)  Time elapsed: 0.503 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.all_returnsAllInstancesOfSighting_true(SightingTest.java:38)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.all_returnsAllInstancesOfSighting_true(SightingTest.java:38)
+
+find_returnsSightingWithSameId_secondSighting(models.SightingTest)  Time elapsed: 0.515 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.find_returnsSightingWithSameId_secondSighting(SightingTest.java:52)
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "196.107.113.91", user "pcfuribhbzhumr", database "d6h28pq7taeg2l", SSL off
+	at models.SightingTest.find_returnsSightingWithSameId_secondSighting(SightingTest.java:52)
+

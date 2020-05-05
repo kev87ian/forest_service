@@ -1,0 +1,39 @@
+{{#partial "content"}}
+    <div style="text-align: center" class="card">
+        <p style="text-align: center">Fill form below to sight non-Endangered</p>
+        <div class="container">
+            <div class="card-header">
+                <p>Sight Non-Endangered Animal. </p>
+                <div class="card-body">
+                    <form action="/sightingnonendangered/new" method="post">
+                        <div class="form-group">
+                            <label for="name">Animals</label>
+                            <input id="name" name="name" class="form-control" type="text" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <select name="location">
+                                <option>zone a</option>
+                                <option>zone b</option>
+                                <option>zone c</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ranger_name">Ranger Name</label>
+                            <input id="name" name="ranger_name" class="form-control" required type="text">
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Add animal</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+     </div>
+  </div>
+{{/partial}}
+
+{{> layout.hbs}}
