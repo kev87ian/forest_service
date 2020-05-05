@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    font-family: Garamond;
+    background-image: url('moritz-kindler-24VowUjS7Jk-unsplash.jpg');
+    background-size: cover;
+}
+
+h4{
+    color: dodgerblue;
+}
+p{
+    font-family: "Apple Braille";
+    font-size: 20px;
+
+}
+
+.form-center {
+    width: 40%;
+    margin: 0 auto;
+}
+
+h6{
+    font-size: small;
+}
+.card{
+    size: 20px;
+    font-family: "American Typewriter";
+    font-size: small;
+}
+.jumbotron{
+    size: 10px;
+}

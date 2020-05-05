@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92122be6-7f9f-4f59-a931-9090eee2bfcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/forest_service-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/forest_service-1.0-SNAPSHOT.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/forest_service-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/forest_service-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/forest_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/forest_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/public/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/sighted.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/sighted.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/success.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/success.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sighted.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sighted.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/models/AnimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/models/AnimalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/AnimalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.AnimalTest.delete_deletesAnimalFromDatabase_0">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="forest_service.main" />
@@ -71,8 +65,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnimalTest.all_returnsAllInstancesOfAnimal_false" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;models.AnimalTest.all_returnsAllInstancesOfAnimal_false&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnimalTest.delete_deletesAnimalFromDatabase_0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;models.AnimalTest.delete_deletesAnimalFromDatabase_0&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AnimalTest.delete_deletesAnimalFromDatabase_0" />
+        <item itemvalue="Gradle.AnimalTest.all_returnsAllInstancesOfAnimal_false" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -102,22 +136,26 @@
       <screen x="0" y="0" width="1600" height="859" />
     </state>
     <state x="258" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.859@0.0.1600.859" timestamp="1588588450438" />
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588619033772">
+    <state x="100" y="100" width="1400" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588671820373">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588619033772" />
-    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588619033770">
+    <state x="100" y="100" width="1400" height="658" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.859@0.0.1600.859" timestamp="1588671820373" />
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom" timestamp="1588671820262">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588619033770" />
-    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588619033769">
+    <state width="1554" height="215" key="GridCell.Tab.0.bottom/0.0.1600.859@0.0.1600.859" timestamp="1588671820262" />
+    <state width="1554" height="215" key="GridCell.Tab.0.center" timestamp="1588671820261">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588619033769" />
-    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588619033771">
+    <state width="1554" height="215" key="GridCell.Tab.0.center/0.0.1600.859@0.0.1600.859" timestamp="1588671820261" />
+    <state width="1554" height="215" key="GridCell.Tab.0.left" timestamp="1588671820261">
       <screen x="0" y="0" width="1600" height="859" />
     </state>
-    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588619033771" />
+    <state width="1554" height="215" key="GridCell.Tab.0.left/0.0.1600.859@0.0.1600.859" timestamp="1588671820261" />
+    <state width="1554" height="215" key="GridCell.Tab.0.right" timestamp="1588671820262">
+      <screen x="0" y="0" width="1600" height="859" />
+    </state>
+    <state width="1554" height="215" key="GridCell.Tab.0.right/0.0.1600.859@0.0.1600.859" timestamp="1588671820262" />
     <state x="574" y="139" width="442" height="578" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588597481298">
       <screen x="0" y="0" width="1600" height="859" />
     </state>

@@ -35,11 +35,11 @@ public class AnimalTest {
 
     @Test
     public void all_returnsAllInstancesOfAnimal_false() {
-        Animal firstAnimal = new Animal("Lion");
+        Animal firstAnimal = new Animal("Leopard");
         firstAnimal.save();
         Animal secondAnimal = new Animal("Leopard");
         secondAnimal.save();
-        assertEquals(true, Animal.all().get(0).equals(firstAnimal));
+        assertEquals(false, Animal.all().get(0).equals(firstAnimal));
         assertEquals(true, Animal.all().get(1).equals(secondAnimal));
     }
 

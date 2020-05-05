@@ -13,12 +13,27 @@ import static spark.Spark.*;
 import static spark.Spark.staticFileLocation;
 
 public class App {
+
     public static void main(String[] args) {
+        staticFileLocation("/public");
+        ProcessBuilder process = new ProcessBuilder();
+        Integer port;
+
+        // This tells our app that if Heroku sets a port for us, we need to use that port.
+        // Otherwise, if they do not, continue using port 4567.
+
+        if (process.environment().get("PORT") != null) {
+            port = Integer.parseInt(process.environment().get("PORT"));
+        } else {
+            port = 4567;
+        }
+
+        port(port);
         staticFileLocation("/public");
 
         get("/", (req, res) -> {
             Map<String,Object> model=new HashMap<>();
-         return new ModelAndView(model,"index.hbs");
+            return new ModelAndView(model,"index.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/sightings", (req, res) -> {
@@ -69,40 +84,25 @@ public class App {
         post("/sightingnonendangered/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             String name = request.queryParams("name");
-             Animal animal = new Animal(name);
-             animal.save();
+            Animal animal = new Animal(name);
+            animal.save();
 
             model.put("sightings",SightingInfo.all());
             model.put("animals",Animal.all());
             model.put("endangeredanimals",EndangeredAnimal.all());
-           String ranger_name = request.queryParams("ranger_name");
+            String ranger_name = request.queryParams("ranger_name");
 
             String location = request.queryParams("location");
 
             SightingInfo newSightingInfo = new SightingInfo(name,ranger_name,location);
-             animal.save();
-             newSightingInfo.save();
-          //  sighting.save();
+            animal.save();
+            newSightingInfo.save();
+            //  sighting.save();
             model.put("sightings", SightingInfo.all());
-             model.put("animals", Animal.all());
+            model.put("animals", Animal.all());
             model.put("endangeredAnimals", EndangeredAnimal.all());
             return new ModelAndView(model,"success.hbs");
         },new HandlebarsTemplateEngine());
-
-      /*  get("/animal/:id", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            Animal animal = Animal.find(Integer.parseInt(request.params("id")));
-            model.put("animal", animal);
-            return new ModelAndView(model,"sighting-form.hbs");
-        },new HandlebarsTemplateEngine());
-
-        get("/endangered_animal/:id", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            EndangeredAnimal endangeredAnimal = EndangeredAnimal.find(Integer.parseInt(request.params("id")));
-            model.put("endangeredAnimal", endangeredAnimal);
-            return new ModelAndView(model,"sighting-form.hbs");
-        },new HandlebarsTemplateEngine());*/
-
 
     }
 

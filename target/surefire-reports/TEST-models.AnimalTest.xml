@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="models.AnimalTest" time="0.091" tests="7" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="models.AnimalTest" time="0.095" tests="7" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.vendor" value="Eclipse OpenJ9"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -57,20 +57,20 @@
     <property name="java.fullversion" value="1.8.0_242-b08&#10;JRE 1.8.0 Linux amd64-64-Bit Compressed References 20200122_511 (JIT enabled, AOT enabled)&#10;OpenJ9   - 51a5857d2&#10;OMR      - 7a1b0239a&#10;JCL      - 8cf8a30581 based on jdk8u242-b08"/>
     <property name="maven.home" value="/usr/share/maven"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher heroku:deploy"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.java.launcher.pid" value="16328"/>
+    <property name="sun.java.launcher.pid" value="8891"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/kev/Desktop/forest_service"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/kev/Documents/gits/forest_service"/>
     <property name="ibm.system.encoding" value="UTF-8"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="ibm.signalhandling.rs" value="false"/>
     <property name="java.ext.dirs" value="/home/kev/.sdkman/candidates/java/8.0.242.j9-adpt/jre/lib/ext"/>
-    <property name="user.dir" value="/home/kev/Desktop/forest_service"/>
+    <property name="user.dir" value="/home/kev/Documents/gits/forest_service"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
     <property name="com.ibm.oti.shared.enabled" value="false"/>
@@ -80,22 +80,22 @@
     <property name="java.specification.version" value="1.8"/>
   </properties>
   <testcase name="animal_instantiatesCorrectly_false" classname="models.AnimalTest" time="0"/>
-  <testcase name="save_assignsIdToObjectAndSavesObjectToDatabase" classname="models.AnimalTest" time="0">
-    <failure message="expected:&lt;16&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<16> but was:<1>
+  <testcase name="save_assignsIdToObjectAndSavesObjectToDatabase" classname="models.AnimalTest" time="0.001">
+    <failure message="expected:&lt;40&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<40> but was:<1>
 	at models.AnimalTest.save_assignsIdToObjectAndSavesObjectToDatabase(AnimalTest.java:33)
 ]]></failure>
   </testcase>
   <testcase name="equals_returnsTrueIfNameIsTheSame_false" classname="models.AnimalTest" time="0"/>
-  <testcase name="delete_deletesAnimalFromDatabase_0" classname="models.AnimalTest" time="0.034">
-    <failure message="expected:&lt;0&gt; but was:&lt;15&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<15>
+  <testcase name="delete_deletesAnimalFromDatabase_0" classname="models.AnimalTest" time="0.035">
+    <failure message="expected:&lt;0&gt; but was:&lt;37&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<37>
 	at models.AnimalTest.delete_deletesAnimalFromDatabase_0(AnimalTest.java:60)
 ]]></failure>
   </testcase>
-  <testcase name="all_returnsAllInstancesOfAnimal_false" classname="models.AnimalTest" time="0.027">
+  <testcase name="all_returnsAllInstancesOfAnimal_false" classname="models.AnimalTest" time="0.032">
     <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
-	at models.AnimalTest.all_returnsAllInstancesOfAnimal_false(AnimalTest.java:42)
+	at models.AnimalTest.all_returnsAllInstancesOfAnimal_false(AnimalTest.java:43)
 ]]></failure>
   </testcase>
-  <testcase name="getName_animalInstantiatesWithName_Hyena" classname="models.AnimalTest" time="0.001"/>
-  <testcase name="find_returnsAnimalWithSameId_secondAnimal" classname="models.AnimalTest" time="0.029"/>
+  <testcase name="getName_animalInstantiatesWithName_Hyena" classname="models.AnimalTest" time="0"/>
+  <testcase name="find_returnsAnimalWithSameId_secondAnimal" classname="models.AnimalTest" time="0.025"/>
 </testsuite>

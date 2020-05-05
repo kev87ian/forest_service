@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: models.SightingTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec <<< FAILURE! - in models.SightingTest
+save_insertsObjectIntoDatabase_Sighting(models.SightingTest)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at models.SightingTest.save_insertsObjectIntoDatabase_Sighting(SightingTest.java:32)
+
+all_returnsAllInstancesOfSighting_true(models.SightingTest)  Time elapsed: 0.053 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at models.SightingTest.all_returnsAllInstancesOfSighting_true(SightingTest.java:45)
+

@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: models.AnimalTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec <<< FAILURE! - in models.AnimalTest
-save_assignsIdToObjectAndSavesObjectToDatabase(models.AnimalTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<16> but was:<1>
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec <<< FAILURE! - in models.AnimalTest
+save_assignsIdToObjectAndSavesObjectToDatabase(models.AnimalTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<40> but was:<1>
 	at models.AnimalTest.save_assignsIdToObjectAndSavesObjectToDatabase(AnimalTest.java:33)
 
-delete_deletesAnimalFromDatabase_0(models.AnimalTest)  Time elapsed: 0.034 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<0> but was:<15>
+delete_deletesAnimalFromDatabase_0(models.AnimalTest)  Time elapsed: 0.035 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<37>
 	at models.AnimalTest.delete_deletesAnimalFromDatabase_0(AnimalTest.java:60)
 
-all_returnsAllInstancesOfAnimal_false(models.AnimalTest)  Time elapsed: 0.027 sec  <<< FAILURE!
+all_returnsAllInstancesOfAnimal_false(models.AnimalTest)  Time elapsed: 0.032 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<true> but was:<false>
-	at models.AnimalTest.all_returnsAllInstancesOfAnimal_false(AnimalTest.java:42)
+	at models.AnimalTest.all_returnsAllInstancesOfAnimal_false(AnimalTest.java:43)
 
